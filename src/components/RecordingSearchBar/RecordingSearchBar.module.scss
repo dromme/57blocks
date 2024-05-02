@@ -1,0 +1,32 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.suggestionBox {
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 2px 3px 12px -15px rgba(156, 154, 156, 1);
+}
+
+.suggestionItem {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.suggestionItem[data-hovered] {
+  font-weight: bold;
+}
+
+.searchButton {
+  background: none;
+  color: var(--main-color);
+  border: none;
+  cursor: pointer;
+}

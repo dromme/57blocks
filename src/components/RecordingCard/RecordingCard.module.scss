@@ -1,0 +1,30 @@
+.box {
+    margin: 12px 0;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.box:hover {
+    box-shadow: var(--shadow);
+}
+
+.favorite {
+    cursor: pointer;
+}
+
+.favorite:hover {
+    font-size: 15px;
+}
+
+.favorited {
+    color: var(--red)
+}
+
+.artist {
+    font-size: 10px;
+    font-style: italic;
+}

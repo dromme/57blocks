@@ -1,0 +1,28 @@
+.react-aria-TextField {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.react-aria-Input {
+  border: none;
+  width: 400px;
+  padding: 0.5rem;
+  box-shadow: none;
+  border-radius: 8px;
+  color: var(--main-color);
+  background-color: var(--white);
+}
+
+.react-aria-Input[data-focused] {
+  outline: solid 2px rgb(93, 143, 220);
+}
+
+.react-aria-Button {
+  font-size: 14px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  box-shadow: none;
+  border-radius: 8px;
+  border: none;
+}

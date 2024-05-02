@@ -1,0 +1,28 @@
+.container {
+  padding: 4rem 2rem;
+}
+
+.titleBox {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.box {
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.favorite {
+  cursor: pointer;
+  font-size: 70px;
+}
+
+.favorited {
+  color: var(--red)
+}
